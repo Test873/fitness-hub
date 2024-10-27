@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บไซต์ออกกำลังกาย</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>เว็บไซต์ออกกำลังกาย</h1>
+    <nav>
+        <a href="#about">เกี่ยวกับเรา</a>
+        <a href="#programs">โปรแกรมการออกกำลังกาย</a>
+        <a href="#blog">บทความ</a>
+        <a href="#community">ชุมชน</a>
+        <a href="#contact">ติดต่อเรา</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="home">
+        <h2>เริ่มต้นการเดินทางสู่สุขภาพที่ดีขึ้น!</h2>
+        <p>เข้าร่วมเราวันนี้เพื่อออกกำลังกายอย่างมีสุขภาพดี!</p>
+        <button>เข้าร่วมตอนนี้</button>
+    </section>
+
+    <section id="about">
+        <h2>เกี่ยวกับเรา</h2>
+        <p>เราเป็นทีมผู้เชี่ยวชาญด้านการออกกำลังกายที่มุ่งมั่นช่วยให้คุณมีสุขภาพที่ดี!</p>
+    </section>
+
+    <section id="programs">
+        <h2>โปรแกรมการออกกำลังกาย</h2>
+        <ul>
+            <li>โปรแกรมลดน้ำหนัก</li>
+            <li>โปรแกรมสร้างกล้ามเนื้อ</li>
+            <li>โปรแกรมสำหรับผู้เริ่มต้น</li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>บทความ</h2>
+        <p>เทคนิคการออกกำลังกาย, โภชนาการ, และแรงบันดาลใจต่าง ๆ ที่คุณควรรู้!</p>
+    </section>
+
+    <section id="community">
+        <h2>ชุมชน</h2>
+        <p>พื้นที่สำหรับการแลกเปลี่ยนความคิดเห็นและประสบการณ์ในการออกกำลังกาย!</p>
+    </section>
+
+    <section id="contact">
+        <h2>ติดต่อเรา</h2>
+        <p>สำหรับคำถามหรือข้อเสนอแนะ โปรดกรอกแบบฟอร์มติดต่อ.</p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 เว็บไซต์ออกกำลังกาย. สงวนลิขสิทธิ์.</p>
+</footer>
+
+</body>
+</html>
